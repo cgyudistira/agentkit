@@ -48,18 +48,33 @@ This repository provides essential skills to transform your AI assistant into a 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
 
-### 2. ⚡️ Quick Start (The "Bundle" Way)
+### 2. ⚡️ Quick Start (Interactive CLI)
 
-Don't install 250+ skills manually. Use our **Starter Packs**:
+The easiest way to get started is using our interactive CLI. It will help you choose a profile and install the skills automatically.
+
+```bash
+npx code-agents
+```
+
+> **Note**: This requires Node.js to be installed.
+
+Or use arguments for non-interactive mode (CI/CD):
+
+```bash
+npx code-agents --bundle=essentials --out=./.agent/skills
+```
+
+### 3. 🛡️ Manual Installation (Git)
+
+If you prefer to clone the repository manually:
 
 1. **Clone the repo**:
    ```bash
    git clone https://github.com/cgyudistira/code-agents.git .agent/skills
    ```
 2. **Pick your persona** (See [docs/BUNDLES.md](docs/BUNDLES.md)):
-   * **Web Dev?** use the `Web Wizard` pack.
-   * **Hacker?** use the `Security Engineer` pack.
-   * **Just curious?** start with `Essentials`.
+   * **Web Dev?** copy skills from `skills/web-development/*`
+   * **Hacker?** copy skills from `skills/security/*`
 
 ### 3. 🧠 How to use
 
@@ -130,7 +145,7 @@ The repository is organized into several key areas of expertise:
 
 ## Full Skill Registry (255/255)
 
-> [!NOTE] > **Document Skills**: We provide both **community** and **official Anthropic** versions. Locally, the official versions are used by default.
+> \[!NOTE] > **Document Skills**: We provide both **community** and **official Anthropic** versions. Locally, the official versions are used by default.
 
 | Skill Name | Risk | Description | Path |
 | :--- | :--- | :--- | :--- |
@@ -146,7 +161,7 @@ The repository is organized into several key areas of expertise:
 | **agent-memory-systems** | ⚪ | Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-term (context window), long-term (vector stores), and the cognitive architectures that organize them.  Key insight: Memory isn't just storage - it's retrieval. A million stored facts mean nothing if you can't find the right one. Chunking, embedding, and retrieval strategies determine whether your agent remembers or forgets.  The field is fragm | `skills/agent-memory-systems` |
 | **agent-tool-builder** | ⚪ | Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently, or costs 10x more tokens than necessary.  This skill covers tool design from schema to error handling. JSON Schema best practices, description writing that actually helps the LLM, validation, and the emerging MCP standard that's becoming the lingua franca for AI tools.  Key insight: Tool descriptions are more important than tool implementa | `skills/agent-tool-builder` |
 | **ai-agents-architect** | ⚪ | Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build agent, AI agent, autonomous agent, tool use, function calling. | `skills/ai-agents-architect` |
-| **ai-product** | ⚪ | Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integration patterns, RAG architecture, prompt engineering that scales, AI UX that users trust, and cost optimization that doesn't bankrupt you. Use when: keywords, file_patterns, code_patterns. | `skills/ai-product` |
+| **ai-product** | ⚪ | Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integration patterns, RAG architecture, prompt engineering that scales, AI UX that users trust, and cost optimization that doesn't bankrupt you. Use when: keywords, file\_patterns, code\_patterns. | `skills/ai-product` |
 | **ai-wrapper-product** | ⚪ | Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.) into focused tools people will pay for. Not just 'ChatGPT but different' - products that solve specific problems with AI. Covers prompt engineering for products, cost management, rate limiting, and building defensible AI businesses. Use when: AI wrapper, GPT product, AI tool, wrap AI, AI SaaS. | `skills/ai-wrapper-product` |
 | **algolia-search** | ⚪ | Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality. | `skills/algolia-search` |
 | **algorithmic-art** | ⚪ | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations. | `skills/algorithmic-art` |
@@ -193,7 +208,7 @@ The repository is organized into several key areas of expertise:
 | **code-review-checklist** | ⚪ | Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability | `skills/code-review-checklist` |
 | **codex-review** | ⚪ | Professional code review with auto CHANGELOG generation, integrated with Codex AI | `skills/codex-review` |
 | **coding-standards** | ⚪ | Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development. | `skills/cc-skill-coding-standards` |
-| **competitor-alternatives** | ⚪ | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables. | `skills/competitor-alternatives` |
+| **competitor-alternatives** | ⚪ | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '\[Product] vs \[Product],' '\[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables. | `skills/competitor-alternatives` |
 | **computer-use-agents** | ⚪ | Build AI agents that interact with computers like humans do - viewing screens, moving cursors, clicking buttons, and typing text. Covers Anthropic's Computer Use, OpenAI's Operator/CUA, and open-source alternatives. Critical focus on sandboxing, security, and handling the unique challenges of vision-based control. Use when: computer use, desktop automation agent, screen control AI, vision-based agent, GUI automation. | `skills/computer-use-agents` |
 | **concise-planning** | ⚪ | Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist. | `skills/concise-planning` |
 | **content-creator** | ⚪ | Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy. | `skills/content-creator` |
@@ -217,7 +232,7 @@ The repository is organized into several key areas of expertise:
 | **documentation-templates** | ⚪ | Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation. | `skills/documentation-templates` |
 | **docx** | ⚪ | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks | `skills/docx-official` |
 | **email-sequence** | ⚪ | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," or "lifecycle emails." For in-app onboarding, see onboarding-cro. | `skills/email-sequence` |
-| **email-systems** | ⚪ | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill covers transactional email that works, marketing automation that converts, deliverability that reaches inboxes, and the infrastructure decisions that scale. Use when: keywords, file_patterns, code_patterns. | `skills/email-systems` |
+| **email-systems** | ⚪ | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill covers transactional email that works, marketing automation that converts, deliverability that reaches inboxes, and the infrastructure decisions that scale. Use when: keywords, file\_patterns, code\_patterns. | `skills/email-systems` |
 | **environment-setup-guide** | ⚪ | Guide developers through setting up development environments with proper tools, dependencies, and configurations | `skills/environment-setup-guide` |
 | **Ethical Hacking Methodology** | ⚪ | This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct security scanning", "exploit vulnerabilities", or "write penetration test reports". It provides comprehensive ethical hacking methodology and techniques. | `skills/ethical-hacking-methodology` |
 | **exa-search** | ⚪ | Semantic search, similar content discovery, and structured research using Exa API | `skills/exa-search` |
@@ -294,7 +309,7 @@ The repository is organized into several key areas of expertise:
 | **personal-tool-builder** | ⚪ | Expert in building custom tools that solve your own problems first. The best products often start as personal tools - scratch your own itch, build for yourself, then discover others have the same itch. Covers rapid prototyping, local-first apps, CLI tools, scripts that grow into products, and the art of dogfooding. Use when: build a tool, personal tool, scratch my itch, solve my problem, CLI tool. | `skills/personal-tool-builder` |
 | **plaid-fintech** | ⚪ | Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices. Use when: plaid, bank account linking, bank connection, ach, account aggregation. | `skills/plaid-fintech` |
 | **plan-writing** | ⚪ | Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work. | `skills/plan-writing` |
-| **planning-with-files** | ⚪ | Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls. | `skills/planning-with-files` |
+| **planning-with-files** | ⚪ | Implements Manus-style file-based planning for complex tasks. Creates task\_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls. | `skills/planning-with-files` |
 | **playwright-skill** | ⚪ | Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing. | `skills/playwright-skill` |
 | **popup-cro** | ⚪ | Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust. | `skills/popup-cro` |
 | **powershell-windows** | ⚪ | PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling. | `skills/powershell-windows` |
@@ -316,7 +331,7 @@ The repository is organized into several key areas of expertise:
 | **react-ui-patterns** | ⚪ | Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. | `skills/react-ui-patterns` |
 | **receiving-code-review** | ⚪ | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation | `skills/receiving-code-review` |
 | **Red Team Tools and Methodology** | ⚪ | This skill should be used when the user asks to "follow red team methodology", "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities", "enumerate subdomains", or needs security researcher techniques and tool configurations from top bug bounty hunters. | `skills/red-team-tools` |
-| **red-team-tactics** | ⚪ | Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. | `skills/red-team-tactics` |
+| **red-team-tactics** | ⚪ | Red team tactics principles based on MITRE ATT\&CK. Attack phases, detection evasion, reporting. | `skills/red-team-tactics` |
 | **referral-program** | ⚪ | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization. | `skills/referral-program` |
 | **remotion-best-practices** | ⚪ | Best practices for Remotion - Video creation in React | `skills/remotion-best-practices` |
 | **requesting-code-review** | ⚪ | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | `skills/requesting-code-review` |
