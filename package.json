@@ -1,5 +1,5 @@
 {
-    "name": "code-agents",
+    "name": "@cgyudistira/code-agents",
     "version": "1.0.0",
     "description": "255+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More",
     "main": "index.js",

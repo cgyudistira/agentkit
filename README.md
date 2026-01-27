@@ -53,7 +53,7 @@ AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **speci
 The easiest way to get started is using our interactive CLI. It will help you choose a profile and install the skills automatically.
 
 ```bash
-npx code-agents
+npx @cgyudistira/code-agents
 ```
 
 > **Note**: This requires Node.js to be installed.
@@ -61,7 +61,7 @@ npx code-agents
 Or use arguments for non-interactive mode (CI/CD):
 
 ```bash
-npx code-agents --bundle=essentials --out=./.agent/skills
+npx @cgyudistira/code-agents --bundle=essentials --out=./.agent/skills
 ```
 
 ### 3. 🛡️ Manual Installation (Git)
