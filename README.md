@@ -96,6 +96,8 @@ graph TD
 
 You can use AgentKit without installation via `npx`, or install it globally.
 
+See [Getting Started Guide](docs/GETTING_STARTED.md) for detailed instructions.
+
 ```bash
 # Recommended
 npx @cgyudistira/agentkit
@@ -249,9 +251,23 @@ my-project/
 
 ---
 
+## 📚 Documentation
+
+Detailed documentation is available in the `docs/` directory:
+
+- [Getting Started](docs/GETTING_STARTED.md) - Installation and first steps.
+- [Skills Catalog](docs/SKILLS_CATALOG.md) - Full list of all 315+ skills.
+- [Workflows Guide](docs/VISUAL_GUIDE.md) - Visual guide to slash commands.
+- [Examples](docs/EXAMPLES.md) - Practical usage scenarios.
+- [FAQ](docs/FAQ.md) - Frequently Asked Questions.
+- [Security Policy](docs/SECURITY.md) - Reporting vulnerabilities.
+- [Changelog](docs/CHANGELOG.md) - Version history.
+
+---
+
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions! Please see our [Contributing Guide](docs/CONTRIBUTING.md) for details.
 
 1. Fork the repository.
 2. Create your feature branch (`git checkout -b feature/amazing-skill`).
