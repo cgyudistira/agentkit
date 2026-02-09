@@ -1,6 +1,6 @@
 {
     "name": "@cgyudistira/agentkit",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Koleksi 300+ 'Agentic Skills' untuk AI Agents",
     "main": "index.js",
     "bin": {
