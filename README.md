@@ -1,13 +1,13 @@
 <div align="center">
 
-```text
+<pre>
  █████╗  ██████╗ ███████╗███╗   ██╗████████╗██╗  ██╗██╗████████╗
 ██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝██║ ██╔╝██║╚══██╔══╝
 ███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   █████╔╝ ██║   ██║   
 ██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   ██╔═██╗ ██║   ██║   
 ██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   ██║  ██╗██║   ██║   
 ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝   ╚═╝   
-```
+</pre>
 
 # @cgyudistira/agentkit
 
@@ -270,6 +270,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 <div align="center">
 
 **Built with ❤️ for the AI Developer Community**  
-*By [Cokorda Gde Yudistira](https://github.com/cgyudistira)*
+*By [cgyudistira](https://github.com/cgyudistira)*
 
 </div>
