@@ -50,7 +50,7 @@
 
 ## 📖 Introduction
 
-**AgentKit** is a standardized infrastructure layer that transforms generic AI code assistants (Cursor, Windsurf, Claude Code, Gemini) into specialized **Senior Engineering Partners**. 
+**AgentKit** is a standardized infrastructure layer that transforms generic AI code assistants (**Antigravity**, Cursor, Windsurf, Claude Code, Gemini) into specialized **Senior Engineering Partners**. 
 
 Instead of relying on an AI's generalized training data—which often leads to hallucinated libraries, legacy patterns, or security flaws—AgentKit injects **315+ battle-tested engineering skills** directly into your agent's context. 
 
@@ -72,19 +72,17 @@ These skills act as **Standard Operating Procedures (SOPs)**, ensuring your AI a
 
 ## 🏗️ Architecture
 
-AgentKit works by managing a `.agent` directory in your project root. This directory contains Markdown-based "skills" that compatible AI agents automatically index and consume.
+AgentKit integrates natively with Antigravity's `.agent` directory.
 
 ```mermaid
 graph TD
     A[AgentKit CLI] -->|Installs| B[.agent/skills]
-    B -->|Consumed by| C[AI Editor]
-    C -->|Powered by| D[Cursor]
-    C -->|Powered by| E[Windsurf]
-    C -->|Powered by| F[Claude Code]
+    B -->|Consumed by| C[Antigravity]
+    B -->|Consumed by| D[Other Agents (Cursor/Windsurf)]
     
     subgraph "Your Project"
     B
-    G[.cursorrules] -.->|References| B
+    E[.agent/agentkit.json] -.->|Config| B
     end
 ```
 
@@ -115,17 +113,17 @@ agentkit
 ```
 
 The wizard will ask:
-1.  **Select Your Agent**: (e.g., `Cursor`). AgentKit will detect your environment.
+1.  **Select Your Agent**: Choose **Antigravity** (Recommended) or your preferred editor.
 2.  **Select a Persona**: (e.g., `Full Stack Developer`).
-3.  **Confirm**: Skills are downloaded to `.cursor/skills` (or equivalent).
+3.  **Confirm**: Skills are downloaded to `.agent/skills` (for Antigravity/Windsurf) or `.cursor/skills`.
 
-### 3. Usage
+### 3. Usage (Antigravity Example)
 
-Open your AI Chat (Command+L or Sidebar) and ask:
+Open your Antigravity Chat and ask:
 
 > "I want to create a new user dashboard. Use the `/new-feature` workflow."
 
-Your agent will now strictly follow the **Feature Implementation SOP** installed by AgentKit.
+Antigravity will automatically detect the installed skills in `.agent/skills` and strictly follow the **Feature Implementation SOP**.
 
 ---
 
@@ -199,18 +197,18 @@ Full command-line interface documentation.
 
 ---
 
-## 🔌 Supported Agents
+## 🔌 Compatibility
 
-AgentKit automatically configures the following environments:
+AgentKit is optimized for **Antigravity**, but supports all major AI editors.
 
-| Agent | Config File | Installation Path |
-|---|---|---|
-| **Cursor** | `.cursorrules` | `.cursor/skills/` |
-| **Windsurf** | `.agent/agentkit.json` | `.agent/skills/` |
-| **Claude Code** | `.claude/config.json` | `.claude/skills/` |
-| **Gemini CLI** | `.gemini/settings.json` | `.gemini/skills/` |
-| **Antigravity** | *(System Default)* | `.agent/skills/` |
-| **VS Code (Copilot)** | `.vscode/settings.json` | `.vscode/skills/` |
+| Agent | Type | Skills Path | Priority |
+|---|---|---|---|
+| **Antigravity** | **Native** | `.agent/skills/` | ⭐⭐⭐ |
+| **Cursor** | IDE | `.cursor/skills/` | ⭐⭐ |
+| **Windsurf** | IDE | `.agent/skills/` | ⭐⭐ |
+| **Claude Code** | CLI | `.claude/skills/` | ⭐ |
+| **Gemini CLI** | CLI | `.gemini/skills/` | ⭐ |
+| **TRAE Code AI** | IDE | `.trae/skills/` | ⭐ |
 
 ---
 
