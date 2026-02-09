@@ -137,9 +137,9 @@ your-project/
 ---
 
 ## 🤝 License
-
-MIT © 2025 cgyudistira
-
----
-
-*Built with ❤️ by cgyudistira*
+ 
+ MIT © 2025 cgyudistira
+ 
+ ---
+ 
+ *Built with ❤️ by cgyudistira*
