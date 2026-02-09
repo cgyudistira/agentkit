@@ -1,0 +1,2838 @@
+[
+  {
+    "id": "2d-games",
+    "path": "templates/skills/game-development/2d-games",
+    "category": "creative-studio",
+    "name": "2d-games",
+    "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "3d-games",
+    "path": "templates/skills/game-development/3d-games",
+    "category": "creative-studio",
+    "name": "3d-games",
+    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "3d-web-experience",
+    "path": "templates/skills/3d-web-experience",
+    "category": "creative-studio",
+    "name": "3d-web-experience",
+    "description": "Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators, 3D portfolios, immersive websites, and bringing depth to web experiences. Use when: 3D website, three.js, WebGL, react three fiber, 3D experience.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "ab-test-setup",
+    "path": "templates/skills/ab-test-setup",
+    "category": "creative-studio",
+    "name": "ab-test-setup",
+    "description": "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "active-directory-attacks",
+    "path": "templates/skills/active-directory-attacks",
+    "category": "security-expert",
+    "name": "Active Directory Attacks",
+    "description": "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "address-github-comments",
+    "path": "templates/skills/address-github-comments",
+    "category": "full-stack",
+    "name": "address-github-comments",
+    "description": "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "affiliate-marketing",
+    "path": "templates/skills/affiliate-marketing",
+    "category": "content-writer",
+    "name": "Affiliate Marketing",
+    "description": "Affiliate program strategy, link optimization, and commission maximization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "agent-evaluation",
+    "path": "templates/skills/agent-evaluation",
+    "category": "ai-engineer",
+    "name": "agent-evaluation",
+    "description": "Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "agent-manager-skill",
+    "path": "templates/skills/agent-manager-skill",
+    "category": "ai-engineer",
+    "name": "agent-manager-skill",
+    "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "agent-memory-mcp",
+    "path": "templates/skills/agent-memory-mcp",
+    "category": "ai-engineer",
+    "name": "agent-memory-mcp",
+    "description": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "agent-memory-systems",
+    "path": "templates/skills/agent-memory-systems",
+    "category": "ai-engineer",
+    "name": "agent-memory-systems",
+    "description": "Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-term (context window), long-term (vector stores), and the cognitive architectures that organize them.  Key insight: Memory isn't just storage - it's retrieval. A million stored facts mean nothing if you can't find the right one. Chunking, embedding, and retrieval strategies determine whether your agent remembers or forgets.  The field is fragm",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "agent-tool-builder",
+    "path": "templates/skills/agent-tool-builder",
+    "category": "ai-engineer",
+    "name": "agent-tool-builder",
+    "description": "Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently, or costs 10x more tokens than necessary.  This skill covers tool design from schema to error handling. JSON Schema best practices, description writing that actually helps the LLM, validation, and the emerging MCP standard that's becoming the lingua franca for AI tools.  Key insight: Tool descriptions are more important than tool implementa",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "ai-agents-architect",
+    "path": "templates/skills/ai-agents-architect",
+    "category": "ai-engineer",
+    "name": "ai-agents-architect",
+    "description": "Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build agent, AI agent, autonomous agent, tool use, function calling.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "ai-code-generation",
+    "path": "templates/skills/ai-code-generation",
+    "category": "ai-engineer",
+    "name": "AI Code Generation",
+    "description": "Code generation with LLMs, code review automation, and AI pair programming.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "ai-product",
+    "path": "templates/skills/ai-product",
+    "category": "ai-engineer",
+    "name": "ai-product",
+    "description": "Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integration patterns, RAG architecture, prompt engineering that scales, AI UX that users trust, and cost optimization that doesn't bankrupt you. Use when: keywords, file_patterns, code_patterns.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "ai-safety-alignment",
+    "path": "templates/skills/ai-safety-alignment",
+    "category": "ai-engineer",
+    "name": "AI Safety & Alignment",
+    "description": "RLHF, constitutional AI, safety evaluation, and alignment techniques.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "ai-wrapper-product",
+    "path": "templates/skills/ai-wrapper-product",
+    "category": "ai-engineer",
+    "name": "ai-wrapper-product",
+    "description": "Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.) into focused tools people will pay for. Not just 'ChatGPT but different' - products that solve specific problems with AI. Covers prompt engineering for products, cost management, rate limiting, and building defensible AI businesses. Use when: AI wrapper, GPT product, AI tool, wrap AI, AI SaaS.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "algolia-search",
+    "path": "templates/skills/algolia-search",
+    "category": "full-stack",
+    "name": "algolia-search",
+    "description": "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "algorithmic-art",
+    "path": "templates/skills/algorithmic-art",
+    "category": "content-writer",
+    "name": "algorithmic-art",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "analytics-tracking",
+    "path": "templates/skills/analytics-tracking",
+    "category": "data-scientist",
+    "name": "analytics-tracking",
+    "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when the user wants to set up, fix, or evaluate analytics tracking (GA4, GTM, product analytics, events, conversions, UTMs). This skill focuses on measurement strategy, signal quality, and validation— not just firing events.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "api-documentation-generator",
+    "path": "templates/skills/api-documentation-generator",
+    "category": "full-stack",
+    "name": "api-documentation-generator",
+    "description": "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "api-fuzzing-bug-bounty",
+    "path": "templates/skills/api-fuzzing-bug-bounty",
+    "category": "full-stack",
+    "name": "API Fuzzing for Bug Bounty",
+    "description": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "api-patterns",
+    "path": "templates/skills/api-patterns",
+    "category": "full-stack",
+    "name": "api-patterns",
+    "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "api-security-best-practices",
+    "path": "templates/skills/api-security-best-practices",
+    "category": "security-expert",
+    "name": "api-security-best-practices",
+    "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "app-builder",
+    "path": "templates/skills/app-builder",
+    "category": "creative-studio",
+    "name": "app-builder",
+    "description": "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "app-store-optimization",
+    "path": "templates/skills/app-store-optimization",
+    "category": "full-stack",
+    "name": "app-store-optimization",
+    "description": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "architecture",
+    "path": "templates/skills/architecture",
+    "category": "creative-studio",
+    "name": "architecture",
+    "description": "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "astro-sites",
+    "path": "templates/skills/astro-sites",
+    "category": "full-stack",
+    "name": "Astro Sites",
+    "description": "Astro static site generation, islands architecture, and content collections.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "autonomous-agent-patterns",
+    "path": "templates/skills/autonomous-agent-patterns",
+    "category": "ai-engineer",
+    "name": "autonomous-agent-patterns",
+    "description": "Design patterns for building autonomous coding agents. Covers tool integration, permission systems, browser automation, and human-in-the-loop workflows. Use when building AI agents, designing tool APIs, implementing permission systems, or creating autonomous coding assistants.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "autonomous-agents",
+    "path": "templates/skills/autonomous-agents",
+    "category": "ai-engineer",
+    "name": "autonomous-agents",
+    "description": "Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance. The challenge isn't making them capable - it's making them reliable. Every extra decision multiplies failure probability.  This skill covers agent loops (ReAct, Plan-Execute), goal decomposition, reflection patterns, and production reliability. Key insight: compounding error rates kill autonomous agents. A 95% success rate per step drops to 60% b",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "avalonia-layout-zafiro",
+    "path": "templates/skills/avalonia-layout-zafiro",
+    "category": "creative-studio",
+    "name": "avalonia-layout-zafiro",
+    "description": "Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "avalonia-viewmodels-zafiro",
+    "path": "templates/skills/avalonia-viewmodels-zafiro",
+    "category": "ai-engineer",
+    "name": "avalonia-viewmodels-zafiro",
+    "description": "Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "avalonia-zafiro-development",
+    "path": "templates/skills/avalonia-zafiro-development",
+    "category": "creative-studio",
+    "name": "avalonia-zafiro-development",
+    "description": "Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "aws-penetration-testing",
+    "path": "templates/skills/aws-penetration-testing",
+    "category": "full-stack",
+    "name": "AWS Penetration Testing",
+    "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "aws-serverless",
+    "path": "templates/skills/aws-serverless",
+    "category": "full-stack",
+    "name": "aws-serverless",
+    "description": "Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "azure-functions",
+    "path": "templates/skills/azure-functions",
+    "category": "full-stack",
+    "name": "azure-functions",
+    "description": "Expert patterns for Azure Functions development including isolated worker model, Durable Functions orchestration, cold start optimization, and production patterns. Covers .NET, Python, and Node.js programming models. Use when: azure function, azure functions, durable functions, azure serverless, function app.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "backend-dev-guidelines",
+    "path": "templates/skills/backend-dev-guidelines",
+    "category": "full-stack",
+    "name": "backend-dev-guidelines",
+    "description": "Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod validation, unifiedConfig, Sentry error tracking, async safety, and testing discipline.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "bash-linux",
+    "path": "templates/skills/bash-linux",
+    "category": "full-stack",
+    "name": "bash-linux",
+    "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "behavioral-modes",
+    "path": "templates/skills/behavioral-modes",
+    "category": "ai-engineer",
+    "name": "behavioral-modes",
+    "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "blockrun",
+    "path": "templates/skills/blockrun",
+    "category": "ai-engineer",
+    "name": "blockrun",
+    "description": "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\"blockrun\", \"use grok\", \"use gpt\", \"dall-e\", \"deepseek\")",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "brainstorming",
+    "path": "templates/skills/brainstorming",
+    "category": "ai-engineer",
+    "name": "brainstorming",
+    "description": "Use this skill before any creative or constructive work (features, components, architecture, behavior changes, or functionality). This skill transforms vague ideas into validated designs through disciplined, incremental reasoning and collaboration.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "brand-guidelines-anthropic",
+    "path": "templates/skills/brand-guidelines-anthropic",
+    "category": "creative-studio",
+    "name": "brand-guidelines",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "brand-guidelines-community",
+    "path": "templates/skills/brand-guidelines-community",
+    "category": "creative-studio",
+    "name": "brand-guidelines",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "brand-identity",
+    "path": "templates/skills/brand-identity",
+    "category": "creative-studio",
+    "name": "Brand Identity",
+    "description": "Logo design, brand guidelines, and visual identity systems.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "broken-authentication",
+    "path": "templates/skills/broken-authentication",
+    "category": "security-expert",
+    "name": "Broken Authentication Testing",
+    "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "browser-automation",
+    "path": "templates/skills/browser-automation",
+    "category": "full-stack",
+    "name": "browser-automation",
+    "description": "Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns.  This skill covers Playwright (recommended) and Puppeteer, with patterns for testing, scraping, and agentic browser control. Key insight: Playwright won the framework war. Unless you need Puppeteer's stealth ecosystem or are Chrome-only, Playwright is the better choice in 202",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "browser-extension-builder",
+    "path": "templates/skills/browser-extension-builder",
+    "category": "creative-studio",
+    "name": "browser-extension-builder",
+    "description": "Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions. Covers extension architecture, manifest v3, content scripts, popup UIs, monetization strategies, and Chrome Web Store publishing. Use when: browser extension, chrome extension, firefox addon, extension, manifest v3.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "bullmq-specialist",
+    "path": "templates/skills/bullmq-specialist",
+    "category": "ai-engineer",
+    "name": "bullmq-specialist",
+    "description": "BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "bun-development",
+    "path": "templates/skills/bun-development",
+    "category": "full-stack",
+    "name": "bun-development",
+    "description": "Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "burp-suite-testing",
+    "path": "templates/skills/burp-suite-testing",
+    "category": "security-expert",
+    "name": "Burp Suite Web Application Testing",
+    "description": "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite's core features for web application security testing.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "busybox-on-windows",
+    "path": "templates/skills/busybox-on-windows",
+    "category": "creative-studio",
+    "name": "busybox-on-windows",
+    "description": "How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "canvas-design",
+    "path": "templates/skills/canvas-design",
+    "category": "creative-studio",
+    "name": "canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "case-study-writing",
+    "path": "templates/skills/case-study-writing",
+    "category": "content-writer",
+    "name": "Case Study Writing",
+    "description": "Compelling case studies that showcase results and drive conversions.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "cc-skill-backend-patterns",
+    "path": "templates/skills/cc-skill-backend-patterns",
+    "category": "full-stack",
+    "name": "backend-patterns",
+    "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "cc-skill-clickhouse-io",
+    "path": "templates/skills/cc-skill-clickhouse-io",
+    "category": "data-scientist",
+    "name": "clickhouse-io",
+    "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "cc-skill-coding-standards",
+    "path": "templates/skills/cc-skill-coding-standards",
+    "category": "full-stack",
+    "name": "coding-standards",
+    "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "cc-skill-continuous-learning",
+    "path": "templates/skills/cc-skill-continuous-learning",
+    "category": "ai-engineer",
+    "name": "cc-skill-continuous-learning",
+    "description": "Development skill from everything-claude-code",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "cc-skill-frontend-patterns",
+    "path": "templates/skills/cc-skill-frontend-patterns",
+    "category": "full-stack",
+    "name": "frontend-patterns",
+    "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "cc-skill-project-guidelines-example",
+    "path": "templates/skills/cc-skill-project-guidelines-example",
+    "category": "creative-studio",
+    "name": "cc-skill-project-guidelines-example",
+    "description": "Project Guidelines Skill (Example)",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "cc-skill-security-review",
+    "path": "templates/skills/cc-skill-security-review",
+    "category": "security-expert",
+    "name": "security-review",
+    "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "cc-skill-strategic-compact",
+    "path": "templates/skills/cc-skill-strategic-compact",
+    "category": "ai-engineer",
+    "name": "cc-skill-strategic-compact",
+    "description": "Development skill from everything-claude-code",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "claude-code-guide",
+    "path": "templates/skills/claude-code-guide",
+    "category": "ai-engineer",
+    "name": "Claude Code Guide",
+    "description": "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywords, debugging techniques, and best practices for interacting with the agent.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "claude-d3js-skill",
+    "path": "templates/skills/claude-d3js-skill",
+    "category": "data-scientist",
+    "name": "d3-viz",
+    "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "clean-code",
+    "path": "templates/skills/clean-code",
+    "category": "full-stack",
+    "name": "clean-code",
+    "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "clerk-auth",
+    "path": "templates/skills/clerk-auth",
+    "category": "security-expert",
+    "name": "clerk-auth",
+    "description": "Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "cloud-penetration-testing",
+    "path": "templates/skills/cloud-penetration-testing",
+    "category": "full-stack",
+    "name": "Cloud Penetration Testing",
+    "description": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "code-review-checklist",
+    "path": "templates/skills/code-review-checklist",
+    "category": "full-stack",
+    "name": "code-review-checklist",
+    "description": "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "codex-review",
+    "path": "templates/skills/codex-review",
+    "category": "full-stack",
+    "name": "codex-review",
+    "description": "Professional code review with auto CHANGELOG generation, integrated with Codex AI",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "competitor-alternatives",
+    "path": "templates/skills/competitor-alternatives",
+    "category": "startup-founder",
+    "name": "competitor-alternatives",
+    "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "computer-use-agents",
+    "path": "templates/skills/computer-use-agents",
+    "category": "ai-engineer",
+    "name": "computer-use-agents",
+    "description": "Build AI agents that interact with computers like humans do - viewing screens, moving cursors, clicking buttons, and typing text. Covers Anthropic's Computer Use, OpenAI's Operator/CUA, and open-source alternatives. Critical focus on sandboxing, security, and handling the unique challenges of vision-based control. Use when: computer use, desktop automation agent, screen control AI, vision-based agent, GUI automation.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "computer-vision",
+    "path": "templates/skills/computer-vision",
+    "category": "data-scientist",
+    "name": "Computer Vision",
+    "description": "Image classification, object detection, and vision model development.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "concise-planning",
+    "path": "templates/skills/concise-planning",
+    "category": "security-expert",
+    "name": "concise-planning",
+    "description": "Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "container-security",
+    "path": "templates/skills/container-security",
+    "category": "security-expert",
+    "name": "Container Security",
+    "description": "Docker and Kubernetes security, image scanning, and runtime protection.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "content-creator",
+    "path": "templates/skills/content-creator",
+    "category": "content-writer",
+    "name": "content-creator",
+    "description": "Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "content-repurposing",
+    "path": "templates/skills/content-repurposing",
+    "category": "content-writer",
+    "name": "Content Repurposing",
+    "description": "Transform content across platforms: blog to video, podcast to articles.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "context-window-management",
+    "path": "templates/skills/context-window-management",
+    "category": "ai-engineer",
+    "name": "context-window-management",
+    "description": "Strategies for managing LLM context windows including summarization, trimming, routing, and avoiding context rot Use when: context window, token limit, context management, context engineering, long context.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "context7-auto-research",
+    "path": "templates/skills/context7-auto-research",
+    "category": "ai-engineer",
+    "name": "context7-auto-research",
+    "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "conversation-memory",
+    "path": "templates/skills/conversation-memory",
+    "category": "ai-engineer",
+    "name": "conversation-memory",
+    "description": "Persistent memory systems for LLM conversations including short-term, long-term, and entity-based memory Use when: conversation memory, remember, memory persistence, long-term memory, chat history.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "copy-editing",
+    "path": "templates/skills/copy-editing",
+    "category": "content-writer",
+    "name": "copy-editing",
+    "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "copywriting",
+    "path": "templates/skills/copywriting",
+    "category": "content-writer",
+    "name": "copywriting",
+    "description": "Use this skill when writing, rewriting, or improving marketing copy for any page (homepage, landing page, pricing, feature, product, or about page). This skill produces clear, compelling, and testable copy while enforcing alignment, honesty, and conversion best practices.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "core-components",
+    "path": "templates/skills/core-components",
+    "category": "creative-studio",
+    "name": "core-components",
+    "description": "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "crewai",
+    "path": "templates/skills/crewai",
+    "category": "ai-engineer",
+    "name": "crewai",
+    "description": "Expert in CrewAI - the leading role-based multi-agent framework used by 60% of Fortune 500 companies. Covers agent design with roles and goals, task definition, crew orchestration, process types (sequential, hierarchical, parallel), memory systems, and flows for complex workflows. Essential for building collaborative AI agent teams. Use when: crewai, multi-agent team, agent roles, crew of agents, role-based agents.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "cryptography-impl",
+    "path": "templates/skills/cryptography-impl",
+    "category": "security-expert",
+    "name": "Cryptography Implementation",
+    "description": "Secure cryptographic implementations, key management, and crypto pitfalls to avoid.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "daily-news-report",
+    "path": "templates/skills/daily-news-report",
+    "category": "ai-engineer",
+    "name": "daily-news-report",
+    "description": "基于预设 URL 列表抓取内容，筛选高质量技术信息并生成每日 Markdown 报告。",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "database-design",
+    "path": "templates/skills/database-design",
+    "category": "full-stack",
+    "name": "database-design",
+    "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "deep-learning-pytorch",
+    "path": "templates/skills/deep-learning-pytorch",
+    "category": "data-scientist",
+    "name": "Deep Learning PyTorch",
+    "description": "PyTorch neural networks, training loops, and GPU optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "deployment-procedures",
+    "path": "templates/skills/deployment-procedures",
+    "category": "full-stack",
+    "name": "deployment-procedures",
+    "description": "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "design-orchestration",
+    "path": "templates/skills/design-orchestration",
+    "category": "creative-studio",
+    "name": "design-orchestration",
+    "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Prevents premature implementation, skipped validation, and unreviewed high-risk designs.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "design-systems",
+    "path": "templates/skills/design-systems",
+    "category": "creative-studio",
+    "name": "Design Systems",
+    "description": "Component libraries, design tokens, and scalable design architecture.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "devsecops-pipeline",
+    "path": "templates/skills/devsecops-pipeline",
+    "category": "security-expert",
+    "name": "DevSecOps Pipeline",
+    "description": "Security in CI/CD, SAST/DAST integration, and shift-left security practices.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "discord-bot-architect",
+    "path": "templates/skills/discord-bot-architect",
+    "category": "ai-engineer",
+    "name": "discord-bot-architect",
+    "description": "Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive components, rate limiting, and sharding.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "dispatching-parallel-agents",
+    "path": "templates/skills/dispatching-parallel-agents",
+    "category": "ai-engineer",
+    "name": "dispatching-parallel-agents",
+    "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "doc-coauthoring",
+    "path": "templates/skills/doc-coauthoring",
+    "category": "content-writer",
+    "name": "doc-coauthoring",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "docker-expert",
+    "path": "templates/skills/docker-expert",
+    "category": "full-stack",
+    "name": "docker-expert",
+    "description": "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "documentation-templates",
+    "path": "templates/skills/documentation-templates",
+    "category": "full-stack",
+    "name": "documentation-templates",
+    "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "docx-official",
+    "path": "templates/skills/docx-official",
+    "category": "content-writer",
+    "name": "docx",
+    "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "email-sequence",
+    "path": "templates/skills/email-sequence",
+    "category": "content-writer",
+    "name": "email-sequence",
+    "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or \"lifecycle emails.\" For in-app onboarding, see onboarding-cro.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "email-systems",
+    "path": "templates/skills/email-systems",
+    "category": "content-writer",
+    "name": "email-systems",
+    "description": "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill covers transactional email that works, marketing automation that converts, deliverability that reaches inboxes, and the infrastructure decisions that scale. Use when: keywords, file_patterns, code_patterns.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "embeddings-expert",
+    "path": "templates/skills/embeddings-expert",
+    "category": "ai-engineer",
+    "name": "Embeddings Expert",
+    "description": "Text embeddings, vector similarity, and semantic search optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "environment-setup-guide",
+    "path": "templates/skills/environment-setup-guide",
+    "category": "creative-studio",
+    "name": "environment-setup-guide",
+    "description": "Guide developers through setting up development environments with proper tools, dependencies, and configurations",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "ethical-hacking-methodology",
+    "path": "templates/skills/ethical-hacking-methodology",
+    "category": "security-expert",
+    "name": "Ethical Hacking Methodology",
+    "description": "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "exa-search",
+    "path": "templates/skills/exa-search",
+    "category": "content-writer",
+    "name": "exa-search",
+    "description": "Semantic search, similar content discovery, and structured research using Exa API",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "executing-plans",
+    "path": "templates/skills/executing-plans",
+    "category": "security-expert",
+    "name": "executing-plans",
+    "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "experiment-tracking",
+    "path": "templates/skills/experiment-tracking",
+    "category": "data-scientist",
+    "name": "Experiment Tracking",
+    "description": "MLflow, Weights & Biases, and experiment management best practices.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "feature-engineering",
+    "path": "templates/skills/feature-engineering",
+    "category": "data-scientist",
+    "name": "Feature Engineering",
+    "description": "Feature creation, selection, and transformation for ML models.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "file-organizer",
+    "path": "templates/skills/file-organizer",
+    "category": "ai-engineer",
+    "name": "file-organizer",
+    "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. Use when user wants to clean up directories, organize downloads, remove duplicates, or restructure projects.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "file-path-traversal",
+    "path": "templates/skills/file-path-traversal",
+    "category": "security-expert",
+    "name": "File Path Traversal Testing",
+    "description": "This skill should be used when the user asks to \"test for directory traversal\", \"exploit path traversal vulnerabilities\", \"read arbitrary files through web applications\", \"find LFI vulnerabilities\", or \"access files outside web root\". It provides comprehensive file path traversal attack and testing methodologies.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "file-uploads",
+    "path": "templates/skills/file-uploads",
+    "category": "creative-studio",
+    "name": "file-uploads",
+    "description": "Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle large files without blocking. Use when: file upload, S3, R2, presigned URL, multipart.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "fine-tuning-llms",
+    "path": "templates/skills/fine-tuning-llms",
+    "category": "ai-engineer",
+    "name": "Fine-tuning LLMs",
+    "description": "LoRA, QLoRA, PEFT techniques for efficient LLM fine-tuning and customization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "finishing-a-development-branch",
+    "path": "templates/skills/finishing-a-development-branch",
+    "category": "creative-studio",
+    "name": "finishing-a-development-branch",
+    "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "firebase",
+    "path": "templates/skills/firebase",
+    "category": "full-stack",
+    "name": "firebase",
+    "description": "Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting. But the ease of setup hides real complexity. Security rules are your last line of defense, and they're often wrong. Firestore queries are limited, and you learn this after you've designed your data model.  This skill covers Firebase Authentication, Firestore, Realtime Database, Cloud Functions, Cloud Storage, and Firebase Hosting. Key insight: Firebase is optimized for read-heavy, denormalized data. I",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "firecrawl-scraper",
+    "path": "templates/skills/firecrawl-scraper",
+    "category": "full-stack",
+    "name": "firecrawl-scraper",
+    "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "form-cro",
+    "path": "templates/skills/form-cro",
+    "category": "startup-founder",
+    "name": "form-cro",
+    "description": "Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms. Use when the goal is to increase form completion rate, reduce friction, or improve lead quality without breaking compliance or downstream workflows.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "free-tool-strategy",
+    "path": "templates/skills/free-tool-strategy",
+    "category": "content-writer",
+    "name": "free-tool-strategy",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing — useful for founders and technical marketers.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "frontend-design",
+    "path": "templates/skills/frontend-design",
+    "category": "creative-studio",
+    "name": "frontend-design",
+    "description": "Create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "frontend-dev-guidelines",
+    "path": "templates/skills/frontend-dev-guidelines",
+    "category": "full-stack",
+    "name": "frontend-dev-guidelines",
+    "description": "Opinionated frontend development standards for modern React + TypeScript applications. Covers Suspense-first data fetching, lazy loading, feature-based architecture, MUI v7 styling, TanStack Router, performance optimization, and strict TypeScript practices.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "fundraising-strategy",
+    "path": "templates/skills/fundraising-strategy",
+    "category": "startup-founder",
+    "name": "Fundraising Strategy",
+    "description": "Investor outreach, term sheets, and fundraising process optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "game-art",
+    "path": "templates/skills/game-development/game-art",
+    "category": "creative-studio",
+    "name": "game-art",
+    "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "game-audio",
+    "path": "templates/skills/game-development/game-audio",
+    "category": "creative-studio",
+    "name": "game-audio",
+    "description": "Game audio principles. Sound design, music integration, adaptive audio systems.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "game-design",
+    "path": "templates/skills/game-development/game-design",
+    "category": "creative-studio",
+    "name": "game-design",
+    "description": "Game design principles. GDD structure, balancing, player psychology, progression.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "game-development",
+    "path": "templates/skills/game-development",
+    "category": "creative-studio",
+    "name": "game-development",
+    "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "gcp-cloud-run",
+    "path": "templates/skills/gcp-cloud-run",
+    "category": "full-stack",
+    "name": "gcp-cloud-run",
+    "description": "Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven), cold start optimization, and event-driven architecture with Pub/Sub.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "geo-fundamentals",
+    "path": "templates/skills/geo-fundamentals",
+    "category": "ai-engineer",
+    "name": "geo-fundamentals",
+    "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "geospatial-analysis",
+    "path": "templates/skills/geospatial-analysis",
+    "category": "data-scientist",
+    "name": "Geospatial Analysis",
+    "description": "Geographic data analysis, mapping, and location-based insights.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "ghostwriting",
+    "path": "templates/skills/ghostwriting",
+    "category": "content-writer",
+    "name": "Ghostwriting",
+    "description": "Professional ghostwriting for executives, founders, and thought leaders.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "git-pushing",
+    "path": "templates/skills/git-pushing",
+    "category": "full-stack",
+    "name": "git-pushing",
+    "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "github-workflow-automation",
+    "path": "templates/skills/github-workflow-automation",
+    "category": "full-stack",
+    "name": "github-workflow-automation",
+    "description": "Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creating GitHub Actions, or triaging issues.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "graphql",
+    "path": "templates/skills/graphql",
+    "category": "full-stack",
+    "name": "graphql",
+    "description": "GraphQL gives clients exactly the data they need - no more, no less. One endpoint, typed schema, introspection. But the flexibility that makes it powerful also makes it dangerous. Without proper controls, clients can craft queries that bring down your server.  This skill covers schema design, resolvers, DataLoader for N+1 prevention, federation for microservices, and client integration with Apollo/urql. Key insight: GraphQL is a contract. The schema is the API documentation. Design it carefully.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "graphql-api",
+    "path": "templates/skills/graphql-api",
+    "category": "full-stack",
+    "name": "GraphQL API",
+    "description": "GraphQL schema design, resolvers, subscriptions, and Apollo/Relay integration.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "growth-hacking",
+    "path": "templates/skills/growth-hacking",
+    "category": "startup-founder",
+    "name": "Growth Hacking",
+    "description": "Viral loops, referral programs, and unconventional growth tactics.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "html-injection-testing",
+    "path": "templates/skills/html-injection-testing",
+    "category": "security-expert",
+    "name": "HTML Injection Testing",
+    "description": "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "htmx-development",
+    "path": "templates/skills/htmx-development",
+    "category": "full-stack",
+    "name": "HTMX Development",
+    "description": "HTMX patterns for hypermedia-driven applications with minimal JavaScript.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "hubspot-integration",
+    "path": "templates/skills/hubspot-integration",
+    "category": "full-stack",
+    "name": "hubspot-integration",
+    "description": "Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers Node.js and Python SDKs. Use when: hubspot, hubspot api, hubspot crm, hubspot integration, contacts api.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "i18n-localization",
+    "path": "templates/skills/i18n-localization",
+    "category": "full-stack",
+    "name": "i18n-localization",
+    "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "idor-testing",
+    "path": "templates/skills/idor-testing",
+    "category": "security-expert",
+    "name": "IDOR Vulnerability Testing",
+    "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "incident-response",
+    "path": "templates/skills/incident-response",
+    "category": "security-expert",
+    "name": "Incident Response",
+    "description": "Security incident handling, forensics, and post-incident analysis procedures.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "inngest",
+    "path": "templates/skills/inngest",
+    "category": "full-stack",
+    "name": "inngest",
+    "description": "Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers. Use when: inngest, serverless background job, event-driven workflow, step function, durable execution.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "interactive-portfolio",
+    "path": "templates/skills/interactive-portfolio",
+    "category": "creative-studio",
+    "name": "interactive-portfolio",
+    "description": "Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities. Use when: portfolio, personal website, showcase work, developer portfolio, designer portfolio.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "internal-comms-anthropic",
+    "path": "templates/skills/internal-comms-anthropic",
+    "category": "content-writer",
+    "name": "internal-comms",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "internal-comms-community",
+    "path": "templates/skills/internal-comms-community",
+    "category": "content-writer",
+    "name": "internal-comms",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "javascript-mastery",
+    "path": "templates/skills/javascript-mastery",
+    "category": "full-stack",
+    "name": "javascript-mastery",
+    "description": "Comprehensive JavaScript reference covering 33+ essential concepts every developer should know. From fundamentals like primitives and closures to advanced patterns like async/await and functional programming. Use when explaining JS concepts, debugging JavaScript issues, or teaching JavaScript fundamentals.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "kaizen",
+    "path": "templates/skills/kaizen",
+    "category": "ai-engineer",
+    "name": "kaizen",
+    "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "langchain-advanced",
+    "path": "templates/skills/langchain-advanced",
+    "category": "ai-engineer",
+    "name": "LangChain Advanced",
+    "description": "Advanced LangChain patterns: chains, agents, callbacks, and custom components.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "langfuse",
+    "path": "templates/skills/langfuse",
+    "category": "ai-engineer",
+    "name": "langfuse",
+    "description": "Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production. Use when: langfuse, llm observability, llm tracing, prompt management, llm evaluation.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "langgraph",
+    "path": "templates/skills/langgraph",
+    "category": "ai-engineer",
+    "name": "langgraph",
+    "description": "Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern. Used in production at LinkedIn, Uber, and 400+ companies. This is LangChain's recommended approach for building agents. Use when: langgraph, langchain agent, stateful agent, agent graph, react agent.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "last30days",
+    "path": "templates/skills/last30days",
+    "category": "content-writer",
+    "name": "last30days",
+    "description": "Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "launch-strategy",
+    "path": "templates/skills/launch-strategy",
+    "category": "startup-founder",
+    "name": "launch-strategy",
+    "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "lint-and-validate",
+    "path": "templates/skills/lint-and-validate",
+    "category": "full-stack",
+    "name": "lint-and-validate",
+    "description": "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "linux-privilege-escalation",
+    "path": "templates/skills/linux-privilege-escalation",
+    "category": "security-expert",
+    "name": "Linux Privilege Escalation",
+    "description": "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs for root access\", \"enumerate Linux systems for privilege escalation\", or \"gain root access from low-privilege shell\". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "linux-shell-scripting",
+    "path": "templates/skills/linux-shell-scripting",
+    "category": "full-stack",
+    "name": "Linux Production Shell Scripts",
+    "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "llama-index-expert",
+    "path": "templates/skills/llama-index-expert",
+    "category": "ai-engineer",
+    "name": "LlamaIndex Expert",
+    "description": "LlamaIndex for document processing, indexing strategies, and retrieval optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "llm-app-patterns",
+    "path": "templates/skills/llm-app-patterns",
+    "category": "ai-engineer",
+    "name": "llm-app-patterns",
+    "description": "Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "llm-inference-optimization",
+    "path": "templates/skills/llm-inference-optimization",
+    "category": "ai-engineer",
+    "name": "LLM Inference Optimization",
+    "description": "Quantization, caching, batching, and serving optimization for LLM inference.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "local-llm-deployment",
+    "path": "templates/skills/local-llm-deployment",
+    "category": "ai-engineer",
+    "name": "Local LLM Deployment",
+    "description": "Ollama, llama.cpp, and local LLM deployment for privacy and cost optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "loki-mode",
+    "path": "templates/skills/loki-mode",
+    "category": "startup-founder",
+    "name": "loki-mode",
+    "description": "Multi-agent autonomous startup system for Claude Code. Triggers on \"Loki Mode\". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations, marketing, HR, and customer success. Takes PRD to fully deployed, revenue-generating product with zero human intervention. Features Task tool for subagent dispatch, parallel code review with 3 specialized reviewers, severity-based issue triage, distributed task queue with dead letter handling, automatic deployment to cloud providers, A/B testing, customer feedback loops, incident response, circuit breakers, and self-healing. Handles rate limits via distributed state checkpoints and auto-resume with exponential backoff. Requires --dangerously-skip-permissions flag.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "marketing-ideas",
+    "path": "templates/skills/marketing-ideas",
+    "category": "startup-founder",
+    "name": "marketing-ideas",
+    "description": "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "marketing-psychology",
+    "path": "templates/skills/marketing-psychology",
+    "category": "content-writer",
+    "name": "marketing-psychology",
+    "description": "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "mcp-builder",
+    "path": "templates/skills/mcp-builder",
+    "category": "creative-studio",
+    "name": "mcp-builder",
+    "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "metasploit-framework",
+    "path": "templates/skills/metasploit-framework",
+    "category": "security-expert",
+    "name": "Metasploit Framework",
+    "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance for leveraging the Metasploit Framework in security assessments.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "micro-saas-launcher",
+    "path": "templates/skills/micro-saas-launcher",
+    "category": "startup-founder",
+    "name": "micro-saas-launcher",
+    "description": "Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software. Covers idea validation, MVP development, pricing, launch strategies, and growing to sustainable revenue. Ship in weeks, not months. Use when: micro saas, indie hacker, small saas, side project, saas mvp.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "microservices-design",
+    "path": "templates/skills/microservices-design",
+    "category": "full-stack",
+    "name": "Microservices Design",
+    "description": "Microservices architecture, service mesh, API gateway, and distributed systems.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "mlops-practices",
+    "path": "templates/skills/mlops-practices",
+    "category": "data-scientist",
+    "name": "MLOps Practices",
+    "description": "ML model deployment, monitoring, versioning, and production pipelines.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "mobile-design",
+    "path": "templates/skills/mobile-design",
+    "category": "full-stack",
+    "name": "mobile-design",
+    "description": "Mobile-first design and engineering doctrine for iOS and Android apps. Covers touch interaction, performance, platform conventions, offline behavior, and mobile-specific decision-making. Teaches principles and constraints, not fixed layouts. Use for React Native, Flutter, or native mobile apps.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "mobile-games",
+    "path": "templates/skills/game-development/mobile-games",
+    "category": "creative-studio",
+    "name": "mobile-games",
+    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "mobile-security",
+    "path": "templates/skills/mobile-security",
+    "category": "security-expert",
+    "name": "Mobile Security",
+    "description": "iOS and Android security testing, SSL pinning bypass, and mobile app vulnerabilities.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "moodle-external-api-development",
+    "path": "templates/skills/moodle-external-api-development",
+    "category": "full-stack",
+    "name": "moodle-external-api-development",
+    "description": "Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter validation, database operations, error handling, service registration, and Moodle coding standards.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "motion-graphics",
+    "path": "templates/skills/motion-graphics",
+    "category": "creative-studio",
+    "name": "Motion Graphics",
+    "description": "After Effects, motion design principles, and animated content creation.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "multi-agent-brainstorming",
+    "path": "templates/skills/multi-agent-brainstorming",
+    "category": "ai-engineer",
+    "name": "multi-agent-brainstorming",
+    "description": "Use this skill when a design or idea requires higher confidence, risk reduction, or formal review. This skill orchestrates a structured, sequential multi-agent design review where each agent has a strict, non-overlapping role. It prevents blind spots, false confidence, and premature convergence.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "multimodal-ai",
+    "path": "templates/skills/multimodal-ai",
+    "category": "ai-engineer",
+    "name": "Multimodal AI",
+    "description": "Vision-language models, image generation, and multimodal reasoning systems.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "multiplayer",
+    "path": "templates/skills/game-development/multiplayer",
+    "category": "security-expert",
+    "name": "multiplayer",
+    "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "neon-postgres",
+    "path": "templates/skills/neon-postgres",
+    "category": "full-stack",
+    "name": "neon-postgres",
+    "description": "Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration Use when: neon database, serverless postgres, database branching, neon postgres, postgres serverless.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "nestjs-expert",
+    "path": "templates/skills/nestjs-expert",
+    "category": "full-stack",
+    "name": "nestjs-expert",
+    "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "network-101",
+    "path": "templates/skills/network-101",
+    "category": "security-expert",
+    "name": "Network 101",
+    "description": "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on configuring and testing network services for penetration testing labs.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "newsletter-growth",
+    "path": "templates/skills/newsletter-growth",
+    "category": "content-writer",
+    "name": "Newsletter Growth",
+    "description": "Email newsletter strategy, growth tactics, and subscriber engagement.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "nextjs-best-practices",
+    "path": "templates/skills/nextjs-best-practices",
+    "category": "full-stack",
+    "name": "nextjs-best-practices",
+    "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "nextjs-patterns",
+    "path": "templates/skills/nextjs-patterns",
+    "category": "full-stack",
+    "name": "Next.js Patterns",
+    "description": "Modern Next.js 14+ patterns: App Router, Server Components, Server Actions, ISR, and edge runtime optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "nextjs-supabase-auth",
+    "path": "templates/skills/nextjs-supabase-auth",
+    "category": "full-stack",
+    "name": "nextjs-supabase-auth",
+    "description": "Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "nlp-fundamentals",
+    "path": "templates/skills/nlp-fundamentals",
+    "category": "data-scientist",
+    "name": "NLP Fundamentals",
+    "description": "Text processing, sentiment analysis, and NLP pipeline development.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "nodejs-best-practices",
+    "path": "templates/skills/nodejs-best-practices",
+    "category": "full-stack",
+    "name": "nodejs-best-practices",
+    "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "nosql-expert",
+    "path": "templates/skills/nosql-expert",
+    "category": "data-scientist",
+    "name": "nosql-expert",
+    "description": "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "notebooklm",
+    "path": "templates/skills/notebooklm",
+    "category": "security-expert",
+    "name": "notebooklm",
+    "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "notion-template-business",
+    "path": "templates/skills/notion-template-business",
+    "category": "startup-founder",
+    "name": "notion-template-business",
+    "description": "Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business. Covers template design, pricing, marketplaces, marketing, and scaling to real revenue. Use when: notion template, sell templates, digital product, notion business, gumroad.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "obsidian-clipper-template-creator",
+    "path": "templates/skills/obsidian-clipper-template-creator",
+    "category": "content-writer",
+    "name": "obsidian-clipper-template-creator",
+    "description": "Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "onboarding-cro",
+    "path": "templates/skills/onboarding-cro",
+    "category": "startup-founder",
+    "name": "onboarding-cro",
+    "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "page-cro",
+    "path": "templates/skills/page-cro",
+    "category": "startup-founder",
+    "name": "page-cro",
+    "description": "Analyze and optimize individual pages for conversion performance. Use when the user wants to improve conversion rates, diagnose why a page is underperforming, or increase the effectiveness of marketing pages (homepage, landing pages, pricing, feature pages, or blog posts). This skill focuses on diagnosis, prioritization, and testable recommendations— not blind optimization.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "paid-ads",
+    "path": "templates/skills/paid-ads",
+    "category": "ai-engineer",
+    "name": "paid-ads",
+    "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "pandas-mastery",
+    "path": "templates/skills/pandas-mastery",
+    "category": "data-scientist",
+    "name": "Pandas Mastery",
+    "description": "Advanced pandas operations, performance optimization, and data wrangling.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "parallel-agents",
+    "path": "templates/skills/parallel-agents",
+    "category": "ai-engineer",
+    "name": "parallel-agents",
+    "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "paywall-upgrade-cro",
+    "path": "templates/skills/paywall-upgrade-cro",
+    "category": "startup-founder",
+    "name": "paywall-upgrade-cro",
+    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "pc-games",
+    "path": "templates/skills/game-development/pc-games",
+    "category": "creative-studio",
+    "name": "pc-games",
+    "description": "PC and console game development principles. Engine selection, platform features, optimization strategies.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "pdf-official",
+    "path": "templates/skills/pdf-official",
+    "category": "ai-engineer",
+    "name": "pdf",
+    "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "pentest-checklist",
+    "path": "templates/skills/pentest-checklist",
+    "category": "security-expert",
+    "name": "Pentest Checklist",
+    "description": "This skill should be used when the user asks to \"plan a penetration test\", \"create a security assessment checklist\", \"prepare for penetration testing\", \"define pentest scope\", \"follow security testing best practices\", or needs a structured methodology for penetration testing engagements.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "pentest-commands",
+    "path": "templates/skills/pentest-commands",
+    "category": "security-expert",
+    "name": "Pentest Commands",
+    "description": "This skill should be used when the user asks to \"run pentest commands\", \"scan with nmap\", \"use metasploit exploits\", \"crack passwords with hydra or john\", \"scan web vulnerabilities with nikto\", \"enumerate networks\", or needs essential penetration testing command references.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "performance-profiling",
+    "path": "templates/skills/performance-profiling",
+    "category": "security-expert",
+    "name": "performance-profiling",
+    "description": "Performance profiling principles. Measurement, analysis, and optimization techniques.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "personal-tool-builder",
+    "path": "templates/skills/personal-tool-builder",
+    "category": "creative-studio",
+    "name": "personal-tool-builder",
+    "description": "Expert in building custom tools that solve your own problems first. The best products often start as personal tools - scratch your own itch, build for yourself, then discover others have the same itch. Covers rapid prototyping, local-first apps, CLI tools, scripts that grow into products, and the art of dogfooding. Use when: build a tool, personal tool, scratch my itch, solve my problem, CLI tool.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "plaid-fintech",
+    "path": "templates/skills/plaid-fintech",
+    "category": "ai-engineer",
+    "name": "plaid-fintech",
+    "description": "Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices. Use when: plaid, bank account linking, bank connection, ach, account aggregation.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "plan-writing",
+    "path": "templates/skills/plan-writing",
+    "category": "content-writer",
+    "name": "plan-writing",
+    "description": "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "planning-with-files",
+    "path": "templates/skills/planning-with-files",
+    "category": "creative-studio",
+    "name": "planning-with-files",
+    "description": "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "playwright-skill",
+    "path": "templates/skills/playwright-skill",
+    "category": "full-stack",
+    "name": "playwright-skill",
+    "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "podcast-production",
+    "path": "templates/skills/podcast-production",
+    "category": "content-writer",
+    "name": "Podcast Production",
+    "description": "Podcast planning, recording, editing, and distribution strategies.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "popup-cro",
+    "path": "templates/skills/popup-cro",
+    "category": "startup-founder",
+    "name": "popup-cro",
+    "description": "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "postgres-best-practices",
+    "path": "templates/skills/postgres-best-practices",
+    "category": "data-scientist",
+    "name": "supabase-postgres-best-practices",
+    "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "powershell-windows",
+    "path": "templates/skills/powershell-windows",
+    "category": "security-expert",
+    "name": "powershell-windows",
+    "description": "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "pptx-official",
+    "path": "templates/skills/pptx-official",
+    "category": "creative-studio",
+    "name": "pptx",
+    "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "pricing-strategy",
+    "path": "templates/skills/pricing-strategy",
+    "category": "startup-founder",
+    "name": "pricing-strategy",
+    "description": "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "prisma-expert",
+    "path": "templates/skills/prisma-expert",
+    "category": "full-stack",
+    "name": "prisma-expert",
+    "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "prisma-orm",
+    "path": "templates/skills/prisma-orm",
+    "category": "full-stack",
+    "name": "Prisma ORM",
+    "description": "Database modeling, migrations, queries, and performance optimization with Prisma.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "privilege-escalation-methods",
+    "path": "templates/skills/privilege-escalation-methods",
+    "category": "security-expert",
+    "name": "Privilege Escalation Methods",
+    "description": "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "product-launch-copy",
+    "path": "templates/skills/product-launch-copy",
+    "category": "content-writer",
+    "name": "Product Launch Copy",
+    "description": "Launch sequences, waitlist pages, and product announcement copywriting.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "product-manager-toolkit",
+    "path": "templates/skills/product-manager-toolkit",
+    "category": "startup-founder",
+    "name": "product-manager-toolkit",
+    "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "product-market-fit",
+    "path": "templates/skills/product-market-fit",
+    "category": "startup-founder",
+    "name": "Product-Market Fit",
+    "description": "PMF measurement, customer discovery, and validation frameworks.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "product-photography",
+    "path": "templates/skills/product-photography",
+    "category": "creative-studio",
+    "name": "Product Photography",
+    "description": "Product shots, lighting, and e-commerce photography techniques.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "production-code-audit",
+    "path": "templates/skills/production-code-audit",
+    "category": "startup-founder",
+    "name": "production-code-audit",
+    "description": "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "programmatic-seo",
+    "path": "templates/skills/programmatic-seo",
+    "category": "content-writer",
+    "name": "programmatic-seo",
+    "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. Use when the user mentions programmatic SEO, pages at scale, template pages, directory pages, location pages, comparison pages, integration pages, or keyword-pattern page generation. This skill focuses on feasibility, strategy, and page system design—not execution unless explicitly requested.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "prompt-caching",
+    "path": "templates/skills/prompt-caching",
+    "category": "ai-engineer",
+    "name": "prompt-caching",
+    "description": "Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and CAG (Cache Augmented Generation) Use when: prompt caching, cache prompt, response cache, cag, cache augmented.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "prompt-engineer",
+    "path": "templates/skills/prompt-engineer",
+    "category": "ai-engineer",
+    "name": "prompt-engineer",
+    "description": "Expert in designing effective prompts for LLM-powered applications. Masters prompt structure, context management, output formatting, and prompt evaluation. Use when: prompt engineering, system prompt, few-shot, chain of thought, prompt design.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "prompt-engineering",
+    "path": "templates/skills/prompt-engineering",
+    "category": "ai-engineer",
+    "name": "prompt-engineering",
+    "description": "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "prompt-library",
+    "path": "templates/skills/prompt-library",
+    "category": "ai-engineer",
+    "name": "prompt-library",
+    "description": "Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use when user needs prompt templates, role-play prompts, or ready-to-use prompt examples for coding, writing, analysis, or creative tasks.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "python-patterns",
+    "path": "templates/skills/python-patterns",
+    "category": "data-scientist",
+    "name": "python-patterns",
+    "description": "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "rag-engineer",
+    "path": "templates/skills/rag-engineer",
+    "category": "ai-engineer",
+    "name": "rag-engineer",
+    "description": "Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, vector search, embeddings, semantic search, document retrieval.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "rag-implementation",
+    "path": "templates/skills/rag-implementation",
+    "category": "ai-engineer",
+    "name": "rag-implementation",
+    "description": "Retrieval-Augmented Generation patterns including chunking, embeddings, vector stores, and retrieval optimization Use when: rag, retrieval augmented, vector search, embeddings, semantic search.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "react-best-practices",
+    "path": "templates/skills/react-best-practices",
+    "category": "full-stack",
+    "name": "vercel-react-best-practices",
+    "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "react-patterns",
+    "path": "templates/skills/react-patterns",
+    "category": "full-stack",
+    "name": "react-patterns",
+    "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "react-ui-patterns",
+    "path": "templates/skills/react-ui-patterns",
+    "category": "creative-studio",
+    "name": "react-ui-patterns",
+    "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "receiving-code-review",
+    "path": "templates/skills/receiving-code-review",
+    "category": "full-stack",
+    "name": "receiving-code-review",
+    "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "red-team-operations",
+    "path": "templates/skills/red-team-operations",
+    "category": "security-expert",
+    "name": "Red Team Operations",
+    "description": "Red team methodology, C2 infrastructure, and adversary emulation.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "red-team-tactics",
+    "path": "templates/skills/red-team-tactics",
+    "category": "security-expert",
+    "name": "red-team-tactics",
+    "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "red-team-tools",
+    "path": "templates/skills/red-team-tools",
+    "category": "security-expert",
+    "name": "Red Team Tools and Methodology",
+    "description": "This skill should be used when the user asks to \"follow red team methodology\", \"perform bug bounty hunting\", \"automate reconnaissance\", \"hunt for XSS vulnerabilities\", \"enumerate subdomains\", or needs security researcher techniques and tool configurations from top bug bounty hunters.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "redis-caching",
+    "path": "templates/skills/redis-caching",
+    "category": "full-stack",
+    "name": "Redis Caching",
+    "description": "Redis caching strategies, pub/sub, sessions, and performance optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "referral-program",
+    "path": "templates/skills/referral-program",
+    "category": "content-writer",
+    "name": "referral-program",
+    "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "remotion-best-practices",
+    "path": "templates/skills/remotion-best-practices",
+    "category": "creative-studio",
+    "name": "remotion-best-practices",
+    "description": "Best practices for Remotion - Video creation in React",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "requesting-code-review",
+    "path": "templates/skills/requesting-code-review",
+    "category": "full-stack",
+    "name": "requesting-code-review",
+    "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "research-engineer",
+    "path": "templates/skills/research-engineer",
+    "category": "ai-engineer",
+    "name": "research-engineer",
+    "description": "An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness, formal verification, and optimal implementation across any required technology.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "reverse-engineering",
+    "path": "templates/skills/reverse-engineering",
+    "category": "security-expert",
+    "name": "Reverse Engineering",
+    "description": "Binary analysis, disassembly, debugging, and malware analysis techniques.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "saas-metrics",
+    "path": "templates/skills/saas-metrics",
+    "category": "startup-founder",
+    "name": "SaaS Metrics",
+    "description": "MRR, churn, LTV, CAC, and SaaS business metric optimization.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "salesforce-development",
+    "path": "templates/skills/salesforce-development",
+    "category": "startup-founder",
+    "name": "salesforce-development",
+    "description": "Expert patterns for Salesforce platform development including Lightning Web Components (LWC), Apex triggers and classes, REST/Bulk APIs, Connected Apps, and Salesforce DX with scratch orgs and 2nd generation packages (2GP). Use when: salesforce, sfdc, apex, lwc, lightning web components.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "scanning-tools",
+    "path": "templates/skills/scanning-tools",
+    "category": "security-expert",
+    "name": "Security Scanning Tools",
+    "description": "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detect malware\", \"check cloud security\", or \"evaluate system compliance\". It provides comprehensive guidance on security scanning tools and methodologies.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "schema-markup",
+    "path": "templates/skills/schema-markup",
+    "category": "creative-studio",
+    "name": "schema-markup",
+    "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. Use when the user wants to add, fix, audit, or scale schema markup (JSON-LD) for rich results. This skill evaluates whether schema should be implemented, what types are valid, and how to deploy safely according to Google guidelines.\n",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "scroll-experience",
+    "path": "templates/skills/scroll-experience",
+    "category": "startup-founder",
+    "name": "scroll-experience",
+    "description": "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "segment-cdp",
+    "path": "templates/skills/segment-cdp",
+    "category": "data-scientist",
+    "name": "segment-cdp",
+    "description": "Expert patterns for Segment Customer Data Platform including Analytics.js, server-side tracking, tracking plans with Protocols, identity resolution, destinations configuration, and data governance best practices. Use when: segment, analytics.js, customer data platform, cdp, tracking plan.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "senior-architect",
+    "path": "templates/skills/senior-architect",
+    "category": "full-stack",
+    "name": "senior-architect",
+    "description": "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "senior-fullstack",
+    "path": "templates/skills/senior-fullstack",
+    "category": "full-stack",
+    "name": "senior-fullstack",
+    "description": "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "seo-audit",
+    "path": "templates/skills/seo-audit",
+    "category": "content-writer",
+    "name": "seo-audit",
+    "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. Use when the user asks for an SEO audit, technical SEO review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check. This skill identifies issues and prioritizes actions but does not execute changes. For large-scale page creation, use programmatic-seo. For structured data, use schema-markup.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "seo-fundamentals",
+    "path": "templates/skills/seo-fundamentals",
+    "category": "content-writer",
+    "name": "seo-fundamentals",
+    "description": "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages. This skill explains *why* SEO works, not how to execute specific optimizations.\n",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "server-management",
+    "path": "templates/skills/server-management",
+    "category": "startup-founder",
+    "name": "server-management",
+    "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "shodan-reconnaissance",
+    "path": "templates/skills/shodan-reconnaissance",
+    "category": "security-expert",
+    "name": "Shodan Reconnaissance and Pentesting",
+    "description": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "shopify-apps",
+    "path": "templates/skills/shopify-apps",
+    "category": "full-stack",
+    "name": "shopify-apps",
+    "description": "Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris components, billing, and app extensions. Use when: shopify app, shopify, embedded app, polaris, app bridge.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "shopify-development",
+    "path": "templates/skills/shopify-development",
+    "category": "full-stack",
+    "name": "shopify-development",
+    "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.\nTRIGGER: \"shopify\", \"shopify app\", \"checkout extension\", \"admin extension\", \"POS extension\",\n\"shopify theme\", \"liquid template\", \"polaris\", \"shopify graphql\", \"shopify webhook\",\n\"shopify billing\", \"app subscription\", \"metafields\", \"shopify functions\"",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "signup-flow-cro",
+    "path": "templates/skills/signup-flow-cro",
+    "category": "startup-founder",
+    "name": "signup-flow-cro",
+    "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "skill-creator",
+    "path": "templates/skills/skill-creator",
+    "category": "creative-studio",
+    "name": "skill-creator",
+    "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "skill-developer",
+    "path": "templates/skills/skill-developer",
+    "category": "ai-engineer",
+    "name": "skill-developer",
+    "description": "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "slack-bot-builder",
+    "path": "templates/skills/slack-bot-builder",
+    "category": "ai-engineer",
+    "name": "slack-bot-builder",
+    "description": "Build Slack apps using the Bolt framework across Python, JavaScript, and Java. Covers Block Kit for rich UIs, interactive components, slash commands, event handling, OAuth installation flows, and Workflow Builder integration. Focus on best practices for production-ready Slack apps. Use when: slack bot, slack app, bolt framework, block kit, slash command.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "slack-gif-creator",
+    "path": "templates/skills/slack-gif-creator",
+    "category": "ai-engineer",
+    "name": "slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "smtp-penetration-testing",
+    "path": "templates/skills/smtp-penetration-testing",
+    "category": "full-stack",
+    "name": "SMTP Penetration Testing",
+    "description": "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "social-content",
+    "path": "templates/skills/social-content",
+    "category": "content-writer",
+    "name": "social-content",
+    "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "social-engineering",
+    "path": "templates/skills/social-engineering",
+    "category": "security-expert",
+    "name": "Social Engineering",
+    "description": "Phishing campaigns, pretexting, and human factor security testing.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "software-architecture",
+    "path": "templates/skills/software-architecture",
+    "category": "full-stack",
+    "name": "software-architecture",
+    "description": "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "sql-injection-testing",
+    "path": "templates/skills/sql-injection-testing",
+    "category": "security-expert",
+    "name": "SQL Injection Testing",
+    "description": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "sqlmap-database-pentesting",
+    "path": "templates/skills/sqlmap-database-pentesting",
+    "category": "security-expert",
+    "name": "SQLMap Database Penetration Testing",
+    "description": "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "ssh-penetration-testing",
+    "path": "templates/skills/ssh-penetration-testing",
+    "category": "security-expert",
+    "name": "SSH Penetration Testing",
+    "description": "This skill should be used when the user asks to \"pentest SSH services\", \"enumerate SSH configurations\", \"brute force SSH credentials\", \"exploit SSH vulnerabilities\", \"perform SSH tunneling\", or \"audit SSH security\". It provides comprehensive SSH penetration testing methodologies and techniques.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "statistical-testing",
+    "path": "templates/skills/statistical-testing",
+    "category": "data-scientist",
+    "name": "Statistical Testing",
+    "description": "Hypothesis testing, significance, confidence intervals, and statistical rigor.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "stripe-integration",
+    "path": "templates/skills/stripe-integration",
+    "category": "startup-founder",
+    "name": "stripe-integration",
+    "description": "Get paid from day one. Payments, subscriptions, billing portal, webhooks, metered billing, Stripe Connect. The complete guide to implementing Stripe correctly, including all the edge cases that will bite you at 3am.  This isn't just API calls - it's the full payment system: handling failures, managing subscriptions, dealing with dunning, and keeping revenue flowing. Use when: stripe, payments, subscription, billing, checkout.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "subagent-driven-development",
+    "path": "templates/skills/subagent-driven-development",
+    "category": "ai-engineer",
+    "name": "subagent-driven-development",
+    "description": "Use when executing implementation plans with independent tasks in the current session",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "svelte-development",
+    "path": "templates/skills/svelte-development",
+    "category": "full-stack",
+    "name": "Svelte Development",
+    "description": "SvelteKit, reactive programming, and compile-time optimization patterns.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "systematic-debugging",
+    "path": "templates/skills/systematic-debugging",
+    "category": "full-stack",
+    "name": "systematic-debugging",
+    "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "tailwind-patterns",
+    "path": "templates/skills/tailwind-patterns",
+    "category": "creative-studio",
+    "name": "tailwind-patterns",
+    "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "tavily-web",
+    "path": "templates/skills/tavily-web",
+    "category": "full-stack",
+    "name": "tavily-web",
+    "description": "Web search, content extraction, crawling, and research capabilities using Tavily API",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "tdd-workflow",
+    "path": "templates/skills/tdd-workflow",
+    "category": "security-expert",
+    "name": "tdd-workflow",
+    "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "team-building",
+    "path": "templates/skills/team-building",
+    "category": "startup-founder",
+    "name": "Team Building",
+    "description": "Hiring, culture building, and early-stage team management.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "technical-writing",
+    "path": "templates/skills/technical-writing",
+    "category": "content-writer",
+    "name": "Technical Writing",
+    "description": "Documentation, API guides, and technical content for developer audiences.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "telegram-bot-builder",
+    "path": "templates/skills/telegram-bot-builder",
+    "category": "ai-engineer",
+    "name": "telegram-bot-builder",
+    "description": "Expert in building Telegram bots that solve real problems - from simple automation to complex AI-powered bots. Covers bot architecture, the Telegram Bot API, user experience, monetization strategies, and scaling bots to thousands of users. Use when: telegram bot, bot api, telegram automation, chat bot telegram, tg bot.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "telegram-mini-app",
+    "path": "templates/skills/telegram-mini-app",
+    "category": "full-stack",
+    "name": "telegram-mini-app",
+    "description": "Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram with native-like experience. Covers the TON ecosystem, Telegram Web App API, payments, user authentication, and building viral mini apps that monetize. Use when: telegram mini app, TWA, telegram web app, TON app, mini app.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "templates",
+    "path": "templates/skills/app-builder/templates",
+    "category": "ai-engineer",
+    "name": "templates",
+    "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "test-driven-development",
+    "path": "templates/skills/test-driven-development",
+    "category": "content-writer",
+    "name": "test-driven-development",
+    "description": "Use when implementing any feature or bugfix, before writing implementation code",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "test-fixing",
+    "path": "templates/skills/test-fixing",
+    "category": "creative-studio",
+    "name": "test-fixing",
+    "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "testing-patterns",
+    "path": "templates/skills/testing-patterns",
+    "category": "full-stack",
+    "name": "testing-patterns",
+    "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "theme-factory",
+    "path": "templates/skills/theme-factory",
+    "category": "creative-studio",
+    "name": "theme-factory",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "threat-hunting",
+    "path": "templates/skills/threat-hunting",
+    "category": "security-expert",
+    "name": "Threat Hunting",
+    "description": "Proactive threat hunting, MITRE ATT&CK framework, and adversary simulation.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "time-series-analysis",
+    "path": "templates/skills/time-series-analysis",
+    "category": "data-scientist",
+    "name": "Time Series Analysis",
+    "description": "Time series forecasting, ARIMA, Prophet, and temporal pattern detection.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "top-web-vulnerabilities",
+    "path": "templates/skills/top-web-vulnerabilities",
+    "category": "full-stack",
+    "name": "Top 100 Web Vulnerabilities Reference",
+    "description": "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "trigger-dev",
+    "path": "templates/skills/trigger-dev",
+    "category": "ai-engineer",
+    "name": "trigger-dev",
+    "description": "Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. Use when: trigger.dev, trigger dev, background task, ai background job, long running task.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "twilio-communications",
+    "path": "templates/skills/twilio-communications",
+    "category": "security-expert",
+    "name": "twilio-communications",
+    "description": "Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA). Covers the full spectrum from simple notifications to complex IVR systems and multi-channel authentication. Critical focus on compliance, rate limits, and error handling. Use when: twilio, send SMS, text message, voice call, phone verification.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "typescript-expert",
+    "path": "templates/skills/typescript-expert",
+    "category": "full-stack",
+    "name": "typescript-expert",
+    "description": "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for any TypeScript/JavaScript issues including complex type gymnastics, build performance, debugging, and architectural decisions. If a specialized expert is a better fit, I will recommend switching and stop.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "ui-ux-pro-max",
+    "path": "templates/skills/ui-ux-pro-max",
+    "category": "creative-studio",
+    "name": "ui-ux-pro-max",
+    "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "upstash-qstash",
+    "path": "templates/skills/upstash-qstash",
+    "category": "startup-founder",
+    "name": "upstash-qstash",
+    "description": "Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash, upstash queue, serverless cron, scheduled http, message queue serverless.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "using-git-worktrees",
+    "path": "templates/skills/using-git-worktrees",
+    "category": "full-stack",
+    "name": "using-git-worktrees",
+    "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "using-superpowers",
+    "path": "templates/skills/using-superpowers",
+    "category": "creative-studio",
+    "name": "using-superpowers",
+    "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "ux-research",
+    "path": "templates/skills/ux-research",
+    "category": "creative-studio",
+    "name": "UX Research",
+    "description": "User interviews, usability testing, and research synthesis methods.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "vercel-deployment",
+    "path": "templates/skills/vercel-deployment",
+    "category": "full-stack",
+    "name": "vercel-deployment",
+    "description": "Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, deployment, hosting, production.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "verification-before-completion",
+    "path": "templates/skills/verification-before-completion",
+    "category": "ai-engineer",
+    "name": "verification-before-completion",
+    "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "viral-content",
+    "path": "templates/skills/viral-content",
+    "category": "content-writer",
+    "name": "Viral Content",
+    "description": "Creating shareable content, hooks, and viral mechanics for social platforms.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "viral-generator-builder",
+    "path": "templates/skills/viral-generator-builder",
+    "category": "creative-studio",
+    "name": "viral-generator-builder",
+    "description": "Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools people can't resist sharing with friends. Use when: generator tool, quiz maker, name generator, avatar creator, viral tool.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "voice-agents",
+    "path": "templates/skills/voice-agents",
+    "category": "ai-engineer",
+    "name": "voice-agents",
+    "description": "Voice agents represent the frontier of AI interaction - humans speaking naturally with AI systems. The challenge isn't just speech recognition and synthesis, it's achieving natural conversation flow with sub-800ms latency while handling interruptions, background noise, and emotional nuance.  This skill covers two architectures: speech-to-speech (OpenAI Realtime API, lowest latency, most natural) and pipeline (STT→LLM→TTS, more control, easier to debug). Key insight: latency is the constraint. Hu",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "voice-ai-development",
+    "path": "templates/skills/voice-ai-development",
+    "category": "ai-engineer",
+    "name": "voice-ai-development",
+    "description": "Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for transcription, ElevenLabs for synthesis, LiveKit for real-time infrastructure, and WebRTC fundamentals. Knows how to build low-latency, production-ready voice experiences. Use when: voice ai, voice agent, speech to text, text to speech, realtime voice.",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "voice-ai-systems",
+    "path": "templates/skills/voice-ai-systems",
+    "category": "ai-engineer",
+    "name": "Voice AI Systems",
+    "description": "Speech-to-text, text-to-speech, and voice AI application development.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "vr-ar",
+    "path": "templates/skills/game-development/vr-ar",
+    "category": "creative-studio",
+    "name": "vr-ar",
+    "description": "VR/AR development principles. Comfort, interaction, performance requirements.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "vue-mastery",
+    "path": "templates/skills/vue-mastery",
+    "category": "full-stack",
+    "name": "Vue.js Mastery",
+    "description": "Vue 3 Composition API, Pinia state management, and Vue ecosystem best practices.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "vulnerability-scanner",
+    "path": "templates/skills/vulnerability-scanner",
+    "category": "security-expert",
+    "name": "vulnerability-scanner",
+    "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "web-artifacts-builder",
+    "path": "templates/skills/web-artifacts-builder",
+    "category": "creative-studio",
+    "name": "web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "web-design-guidelines",
+    "path": "templates/skills/web-design-guidelines",
+    "category": "creative-studio",
+    "name": "web-design-guidelines",
+    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "web-games",
+    "path": "templates/skills/game-development/web-games",
+    "category": "creative-studio",
+    "name": "web-games",
+    "description": "Web browser game development principles. Framework selection, WebGPU, optimization, PWA.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "web-performance-optimization",
+    "path": "templates/skills/web-performance-optimization",
+    "category": "full-stack",
+    "name": "web-performance-optimization",
+    "description": "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "webapp-testing",
+    "path": "templates/skills/webapp-testing",
+    "category": "full-stack",
+    "name": "webapp-testing",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "websocket-realtime",
+    "path": "templates/skills/websocket-realtime",
+    "category": "full-stack",
+    "name": "WebSocket Realtime",
+    "description": "Real-time applications with WebSocket, Socket.io, and event-driven architecture.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "windows-privilege-escalation",
+    "path": "templates/skills/windows-privilege-escalation",
+    "category": "security-expert",
+    "name": "Windows Privilege Escalation",
+    "description": "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "wireshark-analysis",
+    "path": "templates/skills/wireshark-analysis",
+    "category": "security-expert",
+    "name": "Wireshark Network Traffic Analysis",
+    "description": "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"detect network anomalies\", \"investigate suspicious traffic\", or \"perform protocol analysis\". It provides comprehensive techniques for network packet capture, filtering, and analysis using Wireshark.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "wordpress-penetration-testing",
+    "path": "templates/skills/wordpress-penetration-testing",
+    "category": "security-expert",
+    "name": "WordPress Penetration Testing",
+    "description": "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vulnerabilities\", or \"use WPScan\". It provides comprehensive WordPress security assessment methodologies.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "workflow-automation",
+    "path": "templates/skills/workflow-automation",
+    "category": "ai-engineer",
+    "name": "workflow-automation",
+    "description": "Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost money and angry customers. With it, workflows resume exactly where they left off.  This skill covers the platforms (n8n, Temporal, Inngest) and patterns (sequential, parallel, orchestrator-worker) that turn brittle scripts into production-grade automation.  Key insight: The platforms make different tradeoffs. n8n optimizes for accessibility",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "writing-plans",
+    "path": "templates/skills/writing-plans",
+    "category": "content-writer",
+    "name": "writing-plans",
+    "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "writing-skills",
+    "path": "templates/skills/writing-skills",
+    "category": "content-writer",
+    "name": "writing-skills",
+    "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "xlsx-official",
+    "path": "templates/skills/xlsx-official",
+    "category": "data-scientist",
+    "name": "xlsx",
+    "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "xss-html-injection",
+    "path": "templates/skills/xss-html-injection",
+    "category": "security-expert",
+    "name": "Cross-Site Scripting and HTML Injection Testing",
+    "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "youtube-optimization",
+    "path": "templates/skills/youtube-optimization",
+    "category": "content-writer",
+    "name": "YouTube Optimization",
+    "description": "YouTube SEO, thumbnails, titles, and algorithm optimization strategies.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  },
+  {
+    "id": "zapier-make-patterns",
+    "path": "templates/skills/zapier-make-patterns",
+    "category": "full-stack",
+    "name": "zapier-make-patterns",
+    "description": "No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code. But no-code doesn't mean no-complexity - these platforms have their own patterns, pitfalls, and breaking points.  This skill covers when to use which platform, how to build reliable automations, and when to graduate to code-based solutions. Key insight: Zapier optimizes for simplicity and integrations (7000+ apps), Make optimizes for power ",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "zero-trust-architecture",
+    "path": "templates/skills/zero-trust-architecture",
+    "category": "security-expert",
+    "name": "Zero Trust Architecture",
+    "description": "Zero trust principles, microsegmentation, and identity-based security.",
+    "risk": "low",
+    "source": "agentkit-generated"
+  }
+]
+

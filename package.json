@@ -1,13 +1,24 @@
 {
-    "name": "@cgyudistira/code-agents",
+    "name": "@cgyudistira/agentkit",
     "version": "1.0.0",
-    "description": "255+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More",
+    "description": "Koleksi 300+ 'Agentic Skills' untuk AI Agents",
     "main": "index.js",
     "bin": {
-        "code-agents": "./bin/cli.js"
+        "agentkit": "./bin/agentkit.js"
+    },
+    "files": [
+        "bin",
+        "lib",
+        "templates",
+        "index.js",
+        "LICENSE",
+        "README.md"
+    ],
+    "engines": {
+        "node": ">=16.0.0"
     },
     "scripts": {
-        "start": "node bin/cli.js",
+        "start": "node bin/agentkit.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
@@ -15,13 +26,16 @@
         "ai",
         "agent",
         "skills",
-        "claude-code",
-        "gemini",
-        "cursor"
+        "agentkit",
+        "antigravity"
     ],
-    "author": "cgyudistira <cokorda@gmail.com>",
+    "author": "cgyudistira",
     "license": "MIT",
     "dependencies": {
+        "boxen": "^4.2.0",
+        "chalk": "^4.1.2",
+        "commander": "^12.0.0",
+        "figlet": "^1.10.0",
         "fs-extra": "^11.3.3",
         "kleur": "^4.1.5",
         "ora": "^5.4.1",
@@ -29,10 +43,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cgyudistira/code-agents.git"
+        "url": "git+https://github.com/cgyudistira/agentkit.git"
     },
     "bugs": {
-        "url": "https://github.com/cgyudistira/code-agents/issues"
+        "url": "https://github.com/cgyudistira/agentkit/issues"
     },
-    "homepage": "https://github.com/cgyudistira/code-agents#readme"
+    "homepage": "https://github.com/cgyudistira/agentkit#readme"
 }

@@ -1,131 +1,79 @@
 {
-  "essentials": {
-    "title": "\ud83d\ude80 The \"Essentials\" Starter Pack",
-    "description": "For everyone. Install these first.",
+  "full-stack": {
+    "title": "💻 Full Stack Developer",
+    "description": "The complete toolkit for building modern applications. Includes Frontend, Backend, DevOps, and Database skills.",
     "skills": [
       "concise-planning",
-      "lint-and-validate",
+      "frontend-design",
+      "react-patterns",
+      "backend-dev-guidelines",
+      "api-patterns",
+      "docker-expert",
       "git-pushing",
-      "kaizen"
+      "systematic-debugging",
+      "test-driven-development"
     ]
   },
-  "security-engineer": {
-    "title": "\ud83d\udee1\ufe0f The \"Security Engineer\" Pack",
-    "description": "For pentesting, auditing, and hardening.",
+  "security-expert": {
+    "title": "🕵️ Security Expert (Pentester)",
+    "description": "Offensive and defensive security skills. Pentesting, Auditing, Hardening, and Ethical Hacking.",
     "skills": [
       "ethical-hacking-methodology",
       "burp-suite-testing",
-      "owasp-top-10",
-      "linux-privilege-escalation",
-      "cloud-penetration-testing"
+      "api-fuzzing-bug-bounty",
+      "active-directory-attacks",
+      "broken-authentication",
+      "api-security-best-practices",
+      "cloud-penetration-testing",
+      "file-path-traversal",
+      "xss-html-injection"
     ]
   },
-  "web-wizard": {
-    "title": "\ud83c\udf10 The \"Web Wizard\" Pack",
-    "description": "For building modern, high-performance web apps.",
+  "content-writer": {
+    "title": "✍️ Content & Marketing",
+    "description": "For writers, marketers, and creators. SEO, Copywriting, Social Media, and Storytelling.",
     "skills": [
-      "frontend-design",
-      "react-patterns",
-      "tailwind-mastery",
-      "form-cro",
-      "seo-audit"
+      "content-creator",
+      "copywriting",
+      "copy-editing",
+      "email-sequence"
     ]
   },
-  "agent-architect": {
-    "title": "\ud83e\udd16 The \"Agent Architect\" Pack",
-    "description": "For building AI systems.",
+  "ai-engineer": {
+    "title": "🤖 AI Engineer",
+    "description": "Build the future with LLMs, Agents, and RAG. Prompt Engineering and Agent Architecture.",
     "skills": [
+      "prompt-engineering",
+      "ai-agents-architect",
+      "ai-product",
       "agent-evaluation",
-      "langgraph",
-      "mcp-builder",
-      "prompt-engineering"
+      "context-window-management"
     ]
   },
-  "indie-game-dev": {
-    "title": "\ud83c\udfae The \"Indie Game Dev\" Pack",
-    "description": "For building games with AI assistants.",
-    "skills": [
-      "game-development/game-design",
-      "game-development/2d-games",
-      "game-development/3d-games",
-      "game-development/unity-csharp",
-      "algorithmic-art"
-    ]
-  },
-  "python-pro": {
-    "title": "\ud83d\udc0d The \"Python Pro\" Pack",
-    "description": "For backend heavyweights and data scientists.",
+  "data-scientist": {
+    "title": "📊 Data Scientist",
+    "description": "Analyze data, visualize insights, and build models. Python, SQL, and Analytics.",
     "skills": [
       "python-patterns",
-      "poetry-manager",
-      "pytest-mastery",
-      "fastapi-expert",
-      "django-guide"
-    ]
-  },
-  "startup-founder": {
-    "title": "\ud83e\udd84 The \"Startup Founder\" Pack",
-    "description": "For building products, not just code.",
-    "skills": [
-      "product-requirements-doc",
-      "competitor-analysis",
-      "pitch-deck-creator",
-      "landing-page-copy",
-      "stripe-integration"
-    ]
-  },
-  "devops-&-cloud": {
-    "title": "\ud83c\udf27\ufe0f The \"DevOps & Cloud\" Pack",
-    "description": "For infrastructure and scaling.",
-    "skills": [
-      "docker-expert",
-      "aws-serverless",
-      "environment-setup-guide",
-      "deployment-procedures",
-      "bash-linux"
-    ]
-  },
-  "data-&-analytics": {
-    "title": "\ud83d\udcca The \"Data & Analytics\" Pack",
-    "description": "For making sense of the numbers.",
-    "skills": [
       "analytics-tracking",
-      "d3-viz",
-      "sql-mastery",
+      "claude-d3js-skill",
       "ab-test-setup"
     ]
   },
-  "creative-director": {
-    "title": "\ud83c\udfa8 The \"Creative Director\" Pack",
-    "description": "For visuals, content, and branding.",
+  "startup-founder": {
+    "title": "🦄 Startup Founder",
+    "description": "Build a business. Product Management, Strategy, Pitching, and specific tech for MVPs.",
     "skills": [
-      "canvas-design",
+      "competitor-alternatives"
+    ]
+  },
+  "creative-studio": {
+    "title": "🎨 Creative Studio",
+    "description": "Design, Art, and UI/UX. For digital artists and designers.",
+    "skills": [
       "frontend-design",
-      "content-creator",
-      "copy-editing",
+      "canvas-design",
       "algorithmic-art"
-    ]
-  },
-  "qa-&-testing": {
-    "title": "\ud83d\udc1e The \"QA & Testing\" Pack",
-    "description": "For breaking things before users do.",
-    "skills": [
-      "test-driven-development",
-      "systematic-debugging",
-      "browser-automation",
-      "ab-test-setup",
-      "code-review-checklist"
-    ]
-  },
-  "web-designer": {
-    "title": "\ud83d\udd8c\ufe0f The \"Web Designer\" Pack",
-    "description": "For pixel-perfect experiences.",
-    "skills": [
-      "ui-ux-pro-max",
-      "frontend-design",
-      "3d-web-experience",
-      "canvas-design",
-      "responsive-layout"
     ]
   }
 }
