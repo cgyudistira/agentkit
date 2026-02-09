@@ -78,7 +78,7 @@ AgentKit integrates natively with Antigravity's `.agent` directory.
 graph TD
     A[AgentKit CLI] -->|Installs| B[.agent/skills]
     B -->|Consumed by| C[Antigravity]
-    B -->|Consumed by| D[Other Agents (Cursor/Windsurf)]
+    B -->|Consumed by| D["Other Agents (Cursor/Windsurf)"]
     
     subgraph "Your Project"
     B
