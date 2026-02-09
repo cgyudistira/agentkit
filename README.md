@@ -154,7 +154,23 @@ AgentKit allows you to install specific "Personas". Each bundle is a curated col
 - **Product**: MVP Scope Definition, User Story Mapping.
 - **Biz**: Pitch Deck Generation, Market Analysis, Unit Economics.
 
-*(Other bundles: `data-scientist`, `content-writer`, `creative-studio`)*
+### 📊 Data Scientist (`data-scientist`)
+*18 Skills* • Intelligent Data Analysis & Visualization.
+- **Analysis**: Pandas/NumPy best practices, Data Cleaning pipelines.
+- **Vis**: Matplotlib/Seaborn charting, Interactive Dashboards (Streamlit).
+- **Stats**: Hypothesis Testing, Regression Analysis, Time-series forecasting.
+
+### ✍️ Content Writer (`content-writer`)
+*34 Skills* • Technical Writing & SEO Optimization.
+- **Docs**: API Reference (Swagger/OpenAPI), JSDoc/TypeDoc standards.
+- **Marketing**: SEO-optimized Blog Posts, Release Notes generation.
+- **Copy**: UX Writing, Landing Page conversion optimization.
+
+### 🎨 Creative Studio (`creative-studio`)
+*50 Skills* • Design & Asset Generation.
+- **Assets**: SVG Icon generation, Favicon creation, 2D Game Sprites.
+- **UI/UX**: Color Palette generation, Typography systems, Accessibility compliance.
+- **Motion**: CSS Animations, Framer Motion patterns, Canvas API usage.
 
 ---
 
