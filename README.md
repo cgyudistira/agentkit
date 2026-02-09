@@ -13,17 +13,19 @@
 
 **The Enterprise-Grade Skill Manager for AI Code Agents**
 
-<div align="center">
+<p>
+  <a href="https://www.npmjs.com/package/@cgyudistira/agentkit"><img src="https://img.shields.io/npm/v/@cgyudistira/agentkit.svg?style=flat-square&color=blue" alt="npm version" /></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/@cgyudistira/agentkit?style=flat-square&color=green" alt="Node Version" /></a>
+  <a href="https://www.npmjs.com/package/@cgyudistira/agentkit"><img src="https://img.shields.io/npm/dm/@cgyudistira/agentkit.svg?style=flat-square&color=orange" alt="Downloads" /></a>
+  <a href="https://github.com/cgyudistira/agentkit"><img src="https://img.shields.io/github/repo-size/cgyudistira/agentkit?style=flat-square" alt="Repo Size" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License" /></a>
+</p>
 
-[![npm version](https://img.shields.io/npm/v/@cgyudistira/agentkit.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/@cgyudistira/agentkit)
-[![Node Version](https://img.shields.io/node/v/@cgyudistira/agentkit?style=flat-square&color=green)](https://nodejs.org)
-[![Downloads](https://img.shields.io/npm/dm/@cgyudistira/agentkit.svg?style=flat-square&color=orange)](https://www.npmjs.com/package/@cgyudistira/agentkit)
-[![Repo Size](https://img.shields.io/github/repo-size/cgyudistira/agentkit?style=flat-square)](https://github.com/cgyudistira/agentkit)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/cgyudistira/agentkit/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Code Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
+<p>
+  <a href="https://github.com/cgyudistira/agentkit/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" alt="Maintenance" /></a>
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square" alt="Code Style" /></a>
+</p>
 
 </div>
 
